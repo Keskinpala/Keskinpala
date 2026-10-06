@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Atakan Çelikelli — Software Engineer</title>
+  <desc id="desc">Koyu lacivert zemin üzerinde turkuaz detaylar, Atakan Çelikelli adı ve birbirine bağlı arayüz, API ve veri katmanları.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111A27" />
+      <stop offset="1" stop-color="#0B121B" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(958 188) rotate(90) scale(275 330)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#24D3B5" stop-opacity=".13" />
+      <stop offset="1" stop-color="#24D3B5" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="accent" x1="64" y1="0" x2="1160" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#55E3C5" />
+      <stop offset="1" stop-color="#55E3C5" stop-opacity="0" />
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#8AA8B8" stroke-opacity=".045" />
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="380" rx="20" /></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="380" fill="url(#background)" />
+    <rect width="1200" height="380" fill="url(#grid)" />
+    <rect width="1200" height="380" fill="url(#glow)" />
+    <path d="M64 0H1160" stroke="url(#accent)" stroke-width="3" />
+    <g font-family="Segoe UI, Arial, sans-serif">
+      <circle cx="72" cy="51" r="5" fill="#55E3C5" />
+      <text x="88" y="57" fill="#9DB0BF" font-size="17" letter-spacing="3">SOFTWARE ENGINEER</text>
+      <text x="64" y="158" fill="#F1F5F9" font-size="82" font-weight="650" letter-spacing="-4">Atakan</text>
+      <text x="60" y="251" fill="#F1F5F9" font-size="94" font-weight="750" letter-spacing="-5">Çelikelli<tspan fill="#55E3C5">.</tspan></text>
+      <text x="66" y="303" fill="#A4B4C2" font-size="21">Full-stack · Developer tools · Real-time systems</text>
+      <text x="66" y="346" fill="#637C90" font-size="16" letter-spacing="2">İZMİR, TÜRKİYE</text>
+      <text x="1141" y="346" text-anchor="end" fill="#88A89F" font-size="16" letter-spacing="3">INOKOSHA</text>
+    </g>
+    <g stroke="#55E3C5">
+      <circle cx="936" cy="182" r="129" stroke-opacity=".12" stroke-dasharray="3 10" />
+      <circle cx="936" cy="182" r="90" stroke-opacity=".12" />
+      <path d="M756 107H827L857 137M1015 145L1048 112H1104M936 235V275H1024" stroke-opacity=".45" stroke-width="1.5" />
+      <circle cx="827" cy="107" r="3" fill="#55E3C5" stroke="none" />
+      <circle cx="1048" cy="112" r="3" fill="#55E3C5" stroke="none" />
+      <circle cx="936" cy="275" r="3" fill="#55E3C5" stroke="none" />
+      <rect x="870" y="116" width="132" height="132" rx="30" fill="#101F28" stroke-opacity=".4" />
+      <path d="M915 159L891 182L915 205M957 159L981 182L957 205M944 151L929 213" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+    <g font-family="Consolas, monospace" font-size="17" letter-spacing="1">
+      <rect x="708" y="85" width="96" height="44" rx="10" fill="#142330" stroke="#294450" />
+      <text x="756" y="113" text-anchor="middle" fill="#B8CDD7">UI</text>
+      <rect x="1052" y="90" width="100" height="44" rx="10" fill="#142330" stroke="#294450" />
+      <text x="1102" y="118" text-anchor="middle" fill="#B8CDD7">API</text>
+      <rect x="1024" y="252" width="100" height="44" rx="10" fill="#142330" stroke="#294450" />
+      <text x="1074" y="280" text-anchor="middle" fill="#B8CDD7">DATA</text>
+    </g>
+    <rect x=".5" y=".5" width="1199" height="379" rx="19.5" stroke="#263645" />
+  </g>
+</svg>
